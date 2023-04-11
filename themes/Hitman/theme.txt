@@ -1,0 +1,47 @@
+# GRUB2 gfxmenu Linux theme
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+title-font: "Dersu Uzala brush Regular 60"
+desktop-image: "background.jpg"
+terminal-font: "Fira Code Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
+# Show the boot menu
++ boot_menu {
+    left = 0%
+    width = 60%
+    top = 25%
+    height = 700
+    item_height = 74
+    item_padding = 0
+    icon_width = 10
+    icon_height = 0
+    item_icon_space = 50
+    item_spacing = 5
+    item_font =  "Dersu Uzala brush Regular 54"
+    item_color = "#ffffff"
+    selected_item_font = "Dersu Uzala brush Regular 54"
+    selected_item_color = "#930606"
+    selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+    id = "__timeout__"
+    left = 23%
+    top = 90%
+    width = 300
+    height = 20
+    font = "Fira Code Regular 20"
+    color = "#ffffff"
+    align = "center"
+    text = "Agent 47 Ready To Fight: %ds"
+}
+
