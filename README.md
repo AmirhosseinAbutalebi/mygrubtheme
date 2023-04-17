@@ -8,3 +8,5 @@ sudo ./install.sh
 ```
 
 enjoy and customize your theme with this themes ;) <3
+
+later and pic till see.
